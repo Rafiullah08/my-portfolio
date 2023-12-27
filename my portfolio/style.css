@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+.bgcontainer{
+    background-image: url(./images/topcover.jpg);t
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    
+}
+
+
+.bgcontainer h1{
+    padding-top: 20pc;
+    line-height: 40px;
+  font-size: 28px;
+  font-weight: 800;
+}
+.bgcontainer h1 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.bgcontainer p{
+    font-weight: bold;
+    padding-top: 5px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    /* background-color: aqua; */
+    display: flex;
+justify-content: space-between;
+border-bottom: 1px double rgb(70, 55, 55) ;
+margin-top: 3px;
+}
+.navbar h2{
+    margin-left: 10pc;
+    padding-top: 15px;
+    word-spacing: 3px;
+    font-weight: 800;
+    font-size: 26px;
+    color: gray;
+}
+.navbar span{
+    color: rgb(29, 88, 29);
+}
+
+
+.nav-item ,ul{
+    margin-right: 10pc;
+padding-top: 20px;
+
+}
+.nav-item ul ,li{
+    list-style: none;
+    display: inline;
+margin-inline:10px;
+font-weight: 700;
+font-size: 22px;
+}
+
+.nav-item ul ,li ,a{
+    text-decoration: none;
+}
+
+
+/* ------ about sec------ */
+.about-sec {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 32px;
+}
+
+.about-sec h4{
+    color: gray;
+}
+
+/* ------ABOUT SEC2------- */
+
+
+
+
+.about-image{
+    width: 50%;
+    height: 500px;
+}
+
+.about-image img{
+    width: 60%;
+    height: 300px;
+}
+
+
+.about-line p{
+border-bottom:1px solid black ;
+width: 200px;
+text-align: center;
+}
